@@ -30,7 +30,7 @@ int main() {
 
             // Append to full Morse message with 3 spaces
             fullMorse += morse + "   ";
-        }
+    }
     }
 
     cout << "\nFull Morse Code Message:\n" << fullMorse << endl;

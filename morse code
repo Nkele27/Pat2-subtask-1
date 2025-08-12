@@ -26,7 +26,7 @@ int main() {
             string morse = morseCode[upperCh];
 
             // Output individual letter and its Morse code
-            cout << upperCh << ": " << morse << endl;
+            cout <<  upperCh  << ": " <<  morse  << endl;
 
             // Append to full Morse message with 3 spaces
             string fullMorse += morse + "   ";

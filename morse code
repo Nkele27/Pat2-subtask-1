@@ -15,7 +15,7 @@ map<char, string> morseCode = {
 
 int main() {
     string message;
-    cout << "Enter a short message in English: ";
+    cout << "Type your message(letters only will be translated to morse): ";
     getline(cin, message);
 
     string fullMorse = "";

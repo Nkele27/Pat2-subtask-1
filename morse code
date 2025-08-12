@@ -29,7 +29,7 @@ int main() {
             cout << upperCh << ": " << morse << endl;
 
             // Append to full Morse message with 3 spaces
-            fullMorse += morse + "   ";
+            string fullMorse += morse + "   ";
     }
     }
 
